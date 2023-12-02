@@ -1,0 +1,18 @@
+{
+  "quasi_percentage": "0.43",
+  "highly_sensitive_percentage": "0.40",
+  "low_sensitive_percentage": "0.07",
+  "sensitive_percentage": "0.09",
+  "healthcare_percentage": "0.06",
+  "house_percentage": "0.21",
+  "demographic_percentage": "0.30",
+  "financial_percentage": "0.33",
+  "hsi_financial_percentage": "0.22",
+  "si_financial_percentage": "0.00",
+  "qsi_financial_percentage": "0.08",
+  "lsi_financial_percentage": "0.04",
+  "hsi_financial_to_financial": "0.66",
+  "si_financial_to_financial": "0.00",
+  "qsi_financial_to_financial": "0.23",
+  "lsi_financial_to_financial": "0.11"
+}

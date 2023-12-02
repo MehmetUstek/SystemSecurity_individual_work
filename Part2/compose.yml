@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  repocrawler:
+    image: inahomoronyia/repocrawler:latest
+    ports:
+      - 8000:3000
+    volumes:
+      - gitcrawl_data:/db/gitcrawl:rw
+volumes:
+  gitcrawl_data:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./gitcrawl_data
